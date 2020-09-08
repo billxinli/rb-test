@@ -1,3 +1,3 @@
 module Holac
-  VERSION = "0.0.0-released-by-semantic-release".freeze
+  VERSION = "1.0.0".freeze
 end
