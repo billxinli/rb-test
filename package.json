@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/billxinli/rb-test.git"
+    "url": "git@github.com:/billxinli/rb-test.git"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "semantic-release": "^17.1.1",
-    "semantic-release-rubygem-with-pkg-root": "0.0.0-development"
+    "semantic-release-rubygem-with-pkg-root": "0.0.3"
   }
 }
