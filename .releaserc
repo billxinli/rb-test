@@ -3,7 +3,9 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     ["semantic-release-rubygem-with-pkg-root", {
-      "pkgRoot": "client"
+      "pkgRoot": "client",
+       "gemHost": "https://rubygems.pkg.github.com/billxinli",
+       "updateGemfileLock": true
     }]
   ]
 }
