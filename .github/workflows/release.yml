@@ -15,9 +15,7 @@ jobs:
         with:
           ruby-version: '2.5'
 
-      # release the client
-      # run checks
       - run: npm install
-      - run: ./node_modules/.bin/semantic-release
+      - uses: ahmadnassri/action-semantic-release@v1
         env:
           GEM_HOST_API_KEY: ${{ secrets.GEM_TOKEN }}
