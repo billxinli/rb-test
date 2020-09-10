@@ -5,7 +5,7 @@
     ["semantic-release-rubygem-with-pkg-root", {
       "pkgRoot": "client",
        "gemHost": "https://rubygems.pkg.github.com/billxinli",
-       "updateGemfileLock": true
+       "updateGemfileLock": false
     }]
   ]
 }
