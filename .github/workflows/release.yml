@@ -16,7 +16,9 @@ jobs:
           ruby-version: '2.5'
 
       # release the client
-      - uses: ahmadnassri/action-semantic-release@v1
+      # run checks
+      - run: npm install
+      - run: ./node_modules/.bin/semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
