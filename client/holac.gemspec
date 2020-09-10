@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(File.expand_path("../lib", __FILE__))
 require "holac/version"
 
 Gem::Specification.new do |s|
-  s.name        = 'holac'
+  s.name        = 'rb-test'
   s.version     = Holac::VERSION
   s.date        = '2010-04-28'
   s.summary     = "Hola!"
