@@ -4,7 +4,7 @@
     "@semantic-release/release-notes-generator",
     ["semantic-release-rubygem-with-pkg-root", {
       "pkgRoot": "client",
-       "gemHost": "https://rubygems.pkg.github.com/billxinli/rb-test",
+       "gemHost": "https://rubygems.pkg.github.com/billxinli",
        "updateGemfileLock": false
     }]
   ]
